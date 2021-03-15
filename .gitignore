@@ -158,3 +158,6 @@ vid/
 vidres/
 
 _.py
+
+my_image.*
+my_video.*

@@ -4,7 +4,14 @@ import sys
 import torch
 import torch.utils.data as data
 import torch.nn.functional as F
-import cv2
+
+try:
+    import cv2
+except ImportError:
+    import sys
+    sys.path.remove('/opt/ros/kinetic/lib/python2.7/dist-packages')
+    import cv2
+
 import numpy as np
 from .config import cfg
 from pycocotools import mask as maskUtils
