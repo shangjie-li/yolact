@@ -81,7 +81,7 @@
    sys.path.remove('/opt/ros/kinetic/lib/python2.7/dist-packages')
    ```
 
- - 由于Python版本问题，在运行YOLACT时应将原命令中的python改为python3。
+ - 由于Python版本问题，在运行YOLACT时应将原命令中的python改为python3
 
  - 下载COCO数据集，耗时6小时
    ```
